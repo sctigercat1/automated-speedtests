@@ -1,9 +1,3 @@
-<?php
-$type = pathinfo($_SERVER["SCRIPT_FILENAME"])['filename'];
-if ($type != "animated") {
-    $type = "css";
-}
-?>
 <!DOCTYPE html>
 <html id="ht">
 <head>
@@ -30,11 +24,8 @@ a:hover {
 <link rel="stylesheet" href="https://skidding.github.io/obvious-buttons/src/obvious-buttons.css">
 
 <!-- Styles -->
-<link rel="stylesheet" href="<?php echo $type; ?>.css">
-
-<!-- Nice Reload -->
-<script type="text/javascript" src="js/jquery.ba-hashchange.min.js"></script>
-<script src="reload.js"></script>
+<link rel="stylesheet" href="common.css">
+<?php if (pathinfo($_SERVER["SCRIPT_FILENAME"])['filename'] == 'animated') echo "<link rel=\"stylesheet\" href=\"animated.css\">"; ?>
 
 <!-- AMCharts -->
 <script src="amcharts/amcharts.js"></script>
