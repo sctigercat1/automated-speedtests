@@ -32,5 +32,10 @@ document.onclick = function (e) {
     return false; // prevent default action and stop event propagation
   }
 };
+
+// Auto-refresh every 15 minutes
+setTimeout(function(){
+   window.location.reload(1);
+}, 15*60000);
 </script>
 </html>
