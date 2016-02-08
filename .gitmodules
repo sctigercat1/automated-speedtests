@@ -1,3 +1,0 @@
-[submodule "website/amcharts/plugins/dataloader"]
-	path = website/amcharts/plugins/dataloader
-	url = https://github.com/amcharts/dataloader
