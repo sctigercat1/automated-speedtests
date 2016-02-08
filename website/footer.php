@@ -9,7 +9,7 @@
 // TODO: if you load the animated line "silently" it seems to flash the page, which I can only assume because we change the css included in the header.
 // idk if there's a way around it, but that'll be something I'll attempt to keep an eye out for in the future.
 function processAjaxData(result, urlPath) {
-     document.getElementById("ht").innerHTML = result;
+     document.getElementsByTagName("HTML")[0].innerHTML = result;
      var ttitle = $(result).filter('title').text();
      document.title = ttitle;
      window.history.pushState({"html":result,"pageTitle":ttitle},"", urlPath);

@@ -1,23 +1,8 @@
 <!DOCTYPE html>
-<html id="ht">
+<html>
 <head>
 <meta charset="utf-8">
 <title>Internet Service Log</title>
-<style>
-a {
-  color: #0088cc;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-#link-container {
-    text-align: center;
-}
-.button {
-    display: inline-block;
-}
-</style>
 
 <!-- JQuery && Buttons -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
