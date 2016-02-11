@@ -5,7 +5,7 @@
 <title>Internet Service Log</title>
 
 <!-- JQuery && Buttons -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 <link rel="stylesheet" href="https://skidding.github.io/obvious-buttons/src/obvious-buttons.css">
 
 <!-- Styles -->
